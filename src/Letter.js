@@ -5,7 +5,7 @@ import useComponentSize from "@rehooks/component-size";
 const Button = styled.button`
   background: none;
   border: none;
-  font-size: ${props => (props.height * 2) / 3}px;
+  font-size: ${props => props.height / 2}px;
   line-height: ${props => props.height - 1}px;
   height: 100%;
 `;
