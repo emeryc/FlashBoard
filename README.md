@@ -1,2 +1,0 @@
-# FlashBoard
-Created with CodeSandbox
