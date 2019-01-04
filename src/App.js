@@ -35,13 +35,11 @@ const Characters = styled.div`
 
 const Delete = styled.div`
   grid-area: delete;
-  width: 100%;
   font-size: 45pt;
 `;
 
 const Clear = styled.div`
   grid-area: clear;
-  width: 100%;
   font-size: 45pt;
 `;
 
@@ -49,7 +47,6 @@ const Space = styled.div`
   grid-area: space;
   font-size: 45pt;
   text-align: center;
-  width: 100%;
 `;
 
 export default React.memo(function(props) {
@@ -69,12 +66,12 @@ export default React.memo(function(props) {
           //          ["4", "o", "r", "m", "p", "j"],
           //          ["5", "i", "d", "w", "b", "q"],
           //          ["6", "7", "8", "9", "0", "z"]
-          ["a", "b", "c", "d", "e", "1"],
-          ["f", "g", "h", "i", "j", "2"],
-          ["k", "l", "m", "n", "o", "3"],
-          ["p", "q", "r", "s", "t", "4"],
-          ["u", "v", "w", "x", "y", "5"],
-          ["z", "6", "7", "8", "9", "0"]
+          ["1", "a", "b", "c", "d", "e"],
+          ["2", "f", "g", "h", "i", "j"],
+          ["3", "k", "l", "m", "n", "o"],
+          ["4", "p", "q", "r", "s", "t"],
+          ["5", "u", "v", "w", "x", "y"],
+          ["6", "7", "8", "9", "0", "z"]
         ].map(row => (
           <React.Fragment>
             {row.map(c => (

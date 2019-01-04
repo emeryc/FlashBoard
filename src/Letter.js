@@ -8,8 +8,20 @@ const Button = styled.button`
   font-size: ${props => props.height / 2}px;
   line-height: ${props => props.height - 1}px;
   height: 100%;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  width: 100%;
 `;
-const Span = styled.span``;
+const Span = styled.span`
+  display: flex;
+  align-item: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-height: 100%;
+`;
 
 export default React.memo(function(props) {
   const spanRef = React.useRef(null);
